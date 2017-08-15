@@ -92,7 +92,7 @@ npm install casperjs@1.1.3 --save
 
 # Make sure CasperJS finds the PhantomJS executable
 # This is just to have our CasperJS+PhantomJS working. It's not related to NickJS
-export PHANTOMJS_EXECUTABLE=node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
+export PHANTOMJS_EXECUTABLE=node_modules/phantomjs-prebuilt/bin/phantomjs
 
 # Note: In the following example, the way NickJS is launched will change in the future
 # (when we'll have our own launcher)
